@@ -30,6 +30,6 @@ class Sight {
       .append(selector);
   }
   draw(type, attrs) {
-      return new SVGElement(type).attr(attrs).append(this.svg);
+    return new SVGElement(type).attr(attrs).append(this.svg);
   }
 }
